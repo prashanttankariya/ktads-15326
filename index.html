@@ -1,0 +1,1055 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KTADS | Kruti The Architectural Design Studio</title>
+    <meta
+      name="description"
+      content="Founded in 2005 by Ar. Ashish Pandya, Kruti The Architectural Design Studio (KTADS) is a multidisciplinary firm specializing in Architecture, Landscape, Interior, and Furniture Design."
+    />
+    <link rel="canonical" href="https://www.ktads.in/" />
+    <meta property="og:title" content="KTADS | Kruti The Architectural Design Studio" />
+    <meta
+      property="og:description"
+      content="A multidisciplinary architectural design studio specializing in architecture, landscape, interior, and furniture design."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.ktads.in/" />
+    <meta property="og:image" content="https://www.ktads.in/assets/hero-sketch.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "KTADS",
+        "url": "https://www.ktads.in/",
+        "logo": "https://www.ktads.in/assets/logo.png",
+        "founder": "Ar. Ashish Pandya",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "455 West Orchard Street",
+          "addressLocality": "Kings Mountain",
+          "addressRegion": "NC",
+          "postalCode": "28086"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+1-272-211-7370",
+          "contactType": "customer support",
+          "email": "support@yourbrand.com"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="logo-wrap">
+        <a href="#home" class="logo-link">
+          <img src="assets/logo.png" alt="KTADS logo" class="logo" />
+        </a>
+      </div>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-input" />
+      <label for="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="site-nav" aria-label="Primary">
+        <a class="nav-link is-pill" href="#home">Home</a>
+        <a class="nav-link has-icon" href="#portfolio">Portfolio <span class="nav-caret"></span></a>
+        <a class="nav-link has-icon" href="#archive">Archive <span class="nav-caret"></span></a>
+        <a class="nav-link has-icon" href="#testimonials">Testimonials <span class="nav-caret"></span></a>
+        <a class="nav-link" href="#achievements">Achievement / Publications</a>
+        <a class="nav-link" href="#contact">Feedback</a>
+        <a class="nav-link" href="#contact">Career</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero-shell">
+          <button class="slider-arrow hero-arrow hero-prev" aria-label="Previous slide">
+            <svg viewBox="0 0 48 48" aria-hidden="true">
+              <circle cx="24" cy="24" r="20" />
+              <path d="M26 16 L18 24 L26 32" />
+              <line x1="18" y1="24" x2="30" y2="24" />
+            </svg>
+          </button>
+
+          <div class="hero-slider" aria-live="polite">
+            <article class="hero-slide is-active">
+              <div class="hero-text reveal">
+                <p class="hero-kicker">WHERE FUNCTIONALITY MEETS</p>
+                <h1 id="hero-title">TIMELESS AESTHETICS.</h1>
+                <p class="hero-subline">
+                  Architecture &middot; Landscape &middot; Interior &middot; Furniture Design
+                </p>
+              </div>
+              <div class="hero-visual reveal">
+                <img
+                  src="assets/hero-sketch.png"
+                  alt="Architectural sketch of a modern building"
+                  class="hero-image"
+                />
+              </div>
+            </article>
+
+            <article class="hero-slide">
+              <div class="hero-text reveal">
+                <p class="hero-kicker">DESIGNING FOR</p>
+                <h1>MEANINGFUL SPACES.</h1>
+                <p class="hero-subline">Sustainable &middot; Contextual &middot; Human-Centered</p>
+              </div>
+              <div class="hero-visual reveal">
+                <img
+                  src="assets/hero-sketch.png"
+                  alt="Architectural sketch of a modern building"
+                  class="hero-image"
+                />
+              </div>
+            </article>
+
+            <article class="hero-slide">
+              <div class="hero-text reveal">
+                <p class="hero-kicker">CRAFTING</p>
+                <h1>ARCHITECTURAL IDENTITY.</h1>
+                <p class="hero-subline">Residential &middot; Commercial &middot; Institutional</p>
+              </div>
+              <div class="hero-visual reveal">
+                <img
+                  src="assets/hero-sketch.png"
+                  alt="Architectural sketch of a modern building"
+                  class="hero-image"
+                />
+              </div>
+            </article>
+
+            <article class="hero-slide">
+              <div class="hero-text reveal">
+                <p class="hero-kicker">BALANCE OF</p>
+                <h1>FORM AND FUNCTION.</h1>
+                <p class="hero-subline">Detail-Driven &middot; Process-Led &middot; Timeless</p>
+              </div>
+              <div class="hero-visual reveal">
+                <img
+                  src="assets/hero-sketch.png"
+                  alt="Architectural sketch of a modern building"
+                  class="hero-image"
+                />
+              </div>
+            </article>
+
+            <article class="hero-slide">
+              <div class="hero-text reveal">
+                <p class="hero-kicker">DESIGN THAT</p>
+                <h1>SHAPES EXPERIENCE.</h1>
+                <p class="hero-subline">Built Environments &middot; Storytelling &middot; Craft</p>
+              </div>
+              <div class="hero-visual reveal">
+                <img
+                  src="assets/hero-sketch.png"
+                  alt="Architectural sketch of a modern building"
+                  class="hero-image"
+                />
+              </div>
+            </article>
+          </div>
+
+          <button class="slider-arrow hero-arrow hero-next" aria-label="Next slide">
+            <svg viewBox="0 0 48 48" aria-hidden="true">
+              <circle cx="24" cy="24" r="20" />
+              <path d="M22 16 L30 24 L22 32" />
+              <line x1="18" y1="24" x2="30" y2="24" />
+            </svg>
+          </button>
+        </div>
+
+        <div class="slider-dots reveal" role="tablist" aria-label="Hero slider navigation">
+          <button class="hero-dot is-active" aria-label="Go to slide 1"></button>
+          <button class="hero-dot" aria-label="Go to slide 2"></button>
+          <button class="hero-dot" aria-label="Go to slide 3"></button>
+          <button class="hero-dot" aria-label="Go to slide 4"></button>
+          <button class="hero-dot" aria-label="Go to slide 5"></button>
+        </div>
+      </section>
+
+      <section class="about" aria-labelledby="about-title">
+        <div class="container">
+          <h2 id="about-title" class="sr-only">About KTADS</h2>
+          <p class="reveal">
+            Founded in 2005 by <strong>Ar. Ashish Pandya, Kruti The Architectural Design Studio</strong>
+            (KTADS) is a multidisciplinary firm specializing in Architecture, Landscape, Interior, and
+            Furniture Design. Our approach blends functionality, culture, and nature to create meaningful
+            spaces. At KTADS, design goes beyond aesthetics &mdash; it shapes environments, enriches lives, and
+            reflects our passion for timeless, sustainable creation.
+          </p>
+        </div>
+      </section>
+
+      <section class="features" id="portfolio" aria-label="Portfolio Highlights">
+        <div class="feature-slider reveal" aria-live="polite">
+          <div class="feature-track">
+            <div class="feature-group" role="group" aria-label="Portfolio set 1">
+              <div class="feature-row">
+                <div class="feature-bg"></div>
+                <div class="feature-inner">
+                  <div class="feature-media">
+                    <img
+                      src="assets/feature-building.jpg"
+                      alt="Commercial complex exterior design"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="feature-text">
+                    <h3>Why do we use it?</h3>
+                    <p>
+                      It is a long established fact<br>
+                      that a reader will be distracted<br>
+                      by the readable content of a<br>
+                      page when looking at its<br>
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature-row reverse" id="archive">
+                <div class="feature-bg"></div>
+                <div class="feature-inner">
+                  <div class="feature-media">
+                    <img
+                      src="assets/feature-building.jpg"
+                      alt="Commercial complex exterior design"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="feature-text">
+                    <h3>Why do we use it?</h3>
+                    <p>
+                      It is a long established fact<br>
+                      that a reader will be distracted<br>
+                      by the readable content of a<br>
+                      page when looking at its<br>
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature-row">
+                <div class="feature-bg"></div>
+                <div class="feature-inner">
+                  <div class="feature-media">
+                    <img
+                      src="assets/feature-building.jpg"
+                      alt="Commercial complex exterior design"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="feature-text">
+                    <h3>Why do we use it?</h3>
+                    <p>
+                      It is a long established fact<br>
+                      that a reader will be distracted<br>
+                      by the readable content of a<br>
+                      page when looking at its<br>
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature-group" role="group" aria-label="Portfolio set 2">
+              <div class="feature-row">
+                <div class="feature-bg"></div>
+                <div class="feature-inner">
+                  <div class="feature-media">
+                    <img
+                      src="assets/feature-building.jpg"
+                      alt="Commercial complex exterior design"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="feature-text">
+                    <h3>Why do we use it?</h3>
+                    <p>
+                      It is a long established fact<br>
+                      that a reader will be distracted<br>
+                      by the readable content of a<br>
+                      page when looking at its<br>
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature-row reverse">
+                <div class="feature-bg"></div>
+                <div class="feature-inner">
+                  <div class="feature-media">
+                    <img
+                      src="assets/feature-building.jpg"
+                      alt="Commercial complex exterior design"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="feature-text">
+                    <h3>Why do we use it?</h3>
+                    <p>
+                      It is a long established fact<br>
+                      that a reader will be distracted<br>
+                      by the readable content of a<br>
+                      page when looking at its<br>
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature-row">
+                <div class="feature-bg"></div>
+                <div class="feature-inner">
+                  <div class="feature-media">
+                    <img
+                      src="assets/feature-building.jpg"
+                      alt="Commercial complex exterior design"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="feature-text">
+                    <h3>Why do we use it?</h3>
+                    <p>
+                      It is a long established fact<br>
+                      that a reader will be distracted<br>
+                      by the readable content of a<br>
+                      page when looking at its<br>
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature-group" role="group" aria-label="Portfolio set 3">
+              <div class="feature-row">
+                <div class="feature-bg"></div>
+                <div class="feature-inner">
+                  <div class="feature-media">
+                    <img
+                      src="assets/feature-building.jpg"
+                      alt="Commercial complex exterior design"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="feature-text">
+                    <h3>Why do we use it?</h3>
+                    <p>
+                      It is a long established fact<br>
+                      that a reader will be distracted<br>
+                      by the readable content of a<br>
+                      page when looking at its<br>
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature-row reverse">
+                <div class="feature-bg"></div>
+                <div class="feature-inner">
+                  <div class="feature-media">
+                    <img
+                      src="assets/feature-building.jpg"
+                      alt="Commercial complex exterior design"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="feature-text">
+                    <h3>Why do we use it?</h3>
+                    <p>
+                      It is a long established fact<br>
+                      that a reader will be distracted<br>
+                      by the readable content of a<br>
+                      page when looking at its<br>
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature-row">
+                <div class="feature-bg"></div>
+                <div class="feature-inner">
+                  <div class="feature-media">
+                    <img
+                      src="assets/feature-building.jpg"
+                      alt="Commercial complex exterior design"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="feature-text">
+                    <h3>Why do we use it?</h3>
+                    <p>
+                      It is a long established fact<br>
+                      that a reader will be distracted<br>
+                      by the readable content of a<br>
+                      page when looking at its<br>
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature-group" role="group" aria-label="Portfolio set 4">
+              <div class="feature-row">
+                <div class="feature-bg"></div>
+                <div class="feature-inner">
+                  <div class="feature-media">
+                    <img
+                      src="assets/feature-building.jpg"
+                      alt="Commercial complex exterior design"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="feature-text">
+                    <h3>Why do we use it?</h3>
+                    <p>
+                      It is a long established fact<br>
+                      that a reader will be distracted<br>
+                      by the readable content of a<br>
+                      page when looking at its<br>
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature-row reverse">
+                <div class="feature-bg"></div>
+                <div class="feature-inner">
+                  <div class="feature-media">
+                    <img
+                      src="assets/feature-building.jpg"
+                      alt="Commercial complex exterior design"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="feature-text">
+                    <h3>Why do we use it?</h3>
+                    <p>
+                      It is a long established fact<br>
+                      that a reader will be distracted<br>
+                      by the readable content of a<br>
+                      page when looking at its<br>
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature-row">
+                <div class="feature-bg"></div>
+                <div class="feature-inner">
+                  <div class="feature-media">
+                    <img
+                      src="assets/feature-building.jpg"
+                      alt="Commercial complex exterior design"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="feature-text">
+                    <h3>Why do we use it?</h3>
+                    <p>
+                      It is a long established fact<br>
+                      that a reader will be distracted<br>
+                      by the readable content of a<br>
+                      page when looking at its<br>
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature-group" role="group" aria-label="Portfolio set 5">
+              <div class="feature-row">
+                <div class="feature-bg"></div>
+                <div class="feature-inner">
+                  <div class="feature-media">
+                    <img
+                      src="assets/feature-building.jpg"
+                      alt="Commercial complex exterior design"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="feature-text">
+                    <h3>Why do we use it?</h3>
+                    <p>
+                      It is a long established fact<br>
+                      that a reader will be distracted<br>
+                      by the readable content of a<br>
+                      page when looking at its<br>
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature-row reverse">
+                <div class="feature-bg"></div>
+                <div class="feature-inner">
+                  <div class="feature-media">
+                    <img
+                      src="assets/feature-building.jpg"
+                      alt="Commercial complex exterior design"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="feature-text">
+                    <h3>Why do we use it?</h3>
+                    <p>
+                      It is a long established fact<br>
+                      that a reader will be distracted<br>
+                      by the readable content of a<br>
+                      page when looking at its<br>
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature-row">
+                <div class="feature-bg"></div>
+                <div class="feature-inner">
+                  <div class="feature-media">
+                    <img
+                      src="assets/feature-building.jpg"
+                      alt="Commercial complex exterior design"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="feature-text">
+                    <h3>Why do we use it?</h3>
+                    <p>
+                      It is a long established fact<br>
+                      that a reader will be distracted<br>
+                      by the readable content of a<br>
+                      page when looking at its<br>
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature-group" role="group" aria-label="Portfolio set 6">
+              <div class="feature-row">
+                <div class="feature-bg"></div>
+                <div class="feature-inner">
+                  <div class="feature-media">
+                    <img
+                      src="assets/feature-building.jpg"
+                      alt="Commercial complex exterior design"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="feature-text">
+                    <h3>Why do we use it?</h3>
+                    <p>
+                      It is a long established fact<br>
+                      that a reader will be distracted<br>
+                      by the readable content of a<br>
+                      page when looking at its<br>
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature-row reverse">
+                <div class="feature-bg"></div>
+                <div class="feature-inner">
+                  <div class="feature-media">
+                    <img
+                      src="assets/feature-building.jpg"
+                      alt="Commercial complex exterior design"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="feature-text">
+                    <h3>Why do we use it?</h3>
+                    <p>
+                      It is a long established fact<br>
+                      that a reader will be distracted<br>
+                      by the readable content of a<br>
+                      page when looking at its<br>
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature-row">
+                <div class="feature-bg"></div>
+                <div class="feature-inner">
+                  <div class="feature-media">
+                    <img
+                      src="assets/feature-building.jpg"
+                      alt="Commercial complex exterior design"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="feature-text">
+                    <h3>Why do we use it?</h3>
+                    <p>
+                      It is a long established fact<br>
+                      that a reader will be distracted<br>
+                      by the readable content of a<br>
+                      page when looking at its<br>
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature-group" role="group" aria-label="Portfolio set 7">
+              <div class="feature-row">
+                <div class="feature-bg"></div>
+                <div class="feature-inner">
+                  <div class="feature-media">
+                    <img
+                      src="assets/feature-building.jpg"
+                      alt="Commercial complex exterior design"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="feature-text">
+                    <h3>Why do we use it?</h3>
+                    <p>
+                      It is a long established fact<br>
+                      that a reader will be distracted<br>
+                      by the readable content of a<br>
+                      page when looking at its<br>
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature-row reverse">
+                <div class="feature-bg"></div>
+                <div class="feature-inner">
+                  <div class="feature-media">
+                    <img
+                      src="assets/feature-building.jpg"
+                      alt="Commercial complex exterior design"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="feature-text">
+                    <h3>Why do we use it?</h3>
+                    <p>
+                      It is a long established fact<br>
+                      that a reader will be distracted<br>
+                      by the readable content of a<br>
+                      page when looking at its<br>
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature-row">
+                <div class="feature-bg"></div>
+                <div class="feature-inner">
+                  <div class="feature-media">
+                    <img
+                      src="assets/feature-building.jpg"
+                      alt="Commercial complex exterior design"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="feature-text">
+                    <h3>Why do we use it?</h3>
+                    <p>
+                      It is a long established fact<br>
+                      that a reader will be distracted<br>
+                      by the readable content of a<br>
+                      page when looking at its<br>
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature-group" role="group" aria-label="Portfolio set 8">
+              <div class="feature-row">
+                <div class="feature-bg"></div>
+                <div class="feature-inner">
+                  <div class="feature-media">
+                    <img
+                      src="assets/feature-building.jpg"
+                      alt="Commercial complex exterior design"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="feature-text">
+                    <h3>Why do we use it?</h3>
+                    <p>
+                      It is a long established fact<br>
+                      that a reader will be distracted<br>
+                      by the readable content of a<br>
+                      page when looking at its<br>
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature-row reverse">
+                <div class="feature-bg"></div>
+                <div class="feature-inner">
+                  <div class="feature-media">
+                    <img
+                      src="assets/feature-building.jpg"
+                      alt="Commercial complex exterior design"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="feature-text">
+                    <h3>Why do we use it?</h3>
+                    <p>
+                      It is a long established fact<br>
+                      that a reader will be distracted<br>
+                      by the readable content of a<br>
+                      page when looking at its<br>
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature-row">
+                <div class="feature-bg"></div>
+                <div class="feature-inner">
+                  <div class="feature-media">
+                    <img
+                      src="assets/feature-building.jpg"
+                      alt="Commercial complex exterior design"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="feature-text">
+                    <h3>Why do we use it?</h3>
+                    <p>
+                      It is a long established fact<br>
+                      that a reader will be distracted<br>
+                      by the readable content of a<br>
+                      page when looking at its<br>
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature-group" role="group" aria-label="Portfolio set 9">
+              <div class="feature-row">
+                <div class="feature-bg"></div>
+                <div class="feature-inner">
+                  <div class="feature-media">
+                    <img
+                      src="assets/feature-building.jpg"
+                      alt="Commercial complex exterior design"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="feature-text">
+                    <h3>Why do we use it?</h3>
+                    <p>
+                      It is a long established fact<br>
+                      that a reader will be distracted<br>
+                      by the readable content of a<br>
+                      page when looking at its<br>
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature-row reverse">
+                <div class="feature-bg"></div>
+                <div class="feature-inner">
+                  <div class="feature-media">
+                    <img
+                      src="assets/feature-building.jpg"
+                      alt="Commercial complex exterior design"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="feature-text">
+                    <h3>Why do we use it?</h3>
+                    <p>
+                      It is a long established fact<br>
+                      that a reader will be distracted<br>
+                      by the readable content of a<br>
+                      page when looking at its<br>
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature-row">
+                <div class="feature-bg"></div>
+                <div class="feature-inner">
+                  <div class="feature-media">
+                    <img
+                      src="assets/feature-building.jpg"
+                      alt="Commercial complex exterior design"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="feature-text">
+                    <h3>Why do we use it?</h3>
+                    <p>
+                      It is a long established fact<br>
+                      that a reader will be distracted<br>
+                      by the readable content of a<br>
+                      page when looking at its<br>
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-arrows" aria-label="Feature navigation">
+        <button class="slider-arrow feature-prev" aria-label="Previous feature">
+          <svg viewBox="0 0 48 48" aria-hidden="true">
+            <circle cx="24" cy="24" r="20" />
+            <path d="M26 16 L18 24 L26 32" />
+            <line x1="18" y1="24" x2="30" y2="24" />
+          </svg>
+        </button>
+        <button class="slider-arrow feature-next" aria-label="Next feature">
+          <svg viewBox="0 0 48 48" aria-hidden="true">
+            <circle cx="24" cy="24" r="20" />
+            <path d="M22 16 L30 24 L22 32" />
+            <line x1="18" y1="24" x2="30" y2="24" />
+          </svg>
+        </button>
+      </section>
+
+      <section class="testimonials" id="testimonials" aria-labelledby="testimonials-title">
+        <div class="container-wide">
+          <h2 id="testimonials-title" class="reveal">Testimonials</h2>
+          <div class="testimonial-grid reveal" role="region" aria-label="Client testimonials">
+            <article class="testimonial-card">
+              <div class="testimonial-avatar" aria-hidden="true"></div>
+              <h3>TESTIMONIAL</h3>
+              <p>
+                &ldquo;In hac habitasse platea
+                dictumst quisque <span class="underline">sagitise</span>
+                pur convallis&rdquo;
+              </p>
+              <span class="testimonial-handle">@CatherineDoe</span>
+              <div class="testimonial-stars" aria-label="5 star rating">
+                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+              </div>
+            </article>
+
+            <article class="testimonial-card mobile-hidden">
+              <div class="testimonial-avatar" aria-hidden="true"></div>
+              <h3>TESTIMONIAL</h3>
+              <p>
+                &ldquo;In hac habitasse platea
+                dictumst quisque <span class="underline">sagitise</span>
+                pur convallis&rdquo;
+              </p>
+              <span class="testimonial-handle">@CatherineDoe</span>
+              <div class="testimonial-stars" aria-label="5 star rating">
+                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="achievements" id="achievements" aria-labelledby="achievements-title">
+        <div class="container">
+          <h2 id="achievements-title" class="reveal">Achievement / Publications</h2>
+          <p class="achievements-subtitle reveal">
+            Fusce placerat pretium mauris, vel sollicitudin elit lacinia vitae. Quisque sit amet nisi
+            erat.
+          </p>
+
+          <div class="achievements-grid reveal">
+            <div class="achievement-card" aria-hidden="true"></div>
+            <div class="achievement-card" aria-hidden="true"></div>
+            <div class="achievement-card" aria-hidden="true"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="container footer-grid">
+        <div class="footer-column reveal">
+          <h3>Helpful Links</h3>
+          <ul>
+            <li><span>&rsaquo;</span> About Us</li>
+            <li><span>&rsaquo;</span> Features</li>
+            <li><span>&rsaquo;</span> FAQ's</li>
+            <li><span>&rsaquo;</span> Blog</li>
+            <li><span>&rsaquo;</span> Contact</li>
+          </ul>
+        </div>
+        <div class="footer-column reveal">
+          <h3>Services</h3>
+          <ul>
+            <li><span>&rsaquo;</span> Worldwide</li>
+            <li><span>&rsaquo;</span> Scalable</li>
+            <li><span>&rsaquo;</span> Modular</li>
+            <li><span>&rsaquo;</span> Connectivity</li>
+            <li><span>&rsaquo;</span> Corporate</li>
+          </ul>
+        </div>
+        <div class="footer-column reveal">
+          <h3>Contact Us</h3>
+          <address>
+            455 West Orchard Street<br />
+            Kings Mountain, NC 28086<br />
+            Phone: (272) 211-7370<br />
+            E-Mail: support@yourbrand.com
+          </address>
+          <div class="social-links" aria-label="Social media">
+            <a href="#" aria-label="Facebook" class="social-link">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M14 8h2V5h-2c-2.2 0-4 1.8-4 4v2H8v3h2v6h3v-6h2.1l.9-3H13V9c0-.6.4-1 1-1z"
+                />
+              </svg>
+            </a>
+            <a href="#" aria-label="Twitter" class="social-link">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M19.9 7.4c0 .2 0 .4-.1.6-.5 5.7-4.8 9.8-10.7 9.8-2.1 0-4.1-.6-5.7-1.7h.8c1.7 0 3.3-.6 4.6-1.5-1.6 0-2.9-1.1-3.4-2.6.2 0 .5.1.7.1.3 0 .7 0 1-.1-1.7-.3-2.9-1.8-2.9-3.5.5.3 1.1.5 1.8.6-1-.7-1.6-1.8-1.6-3.1 0-.7.2-1.3.5-1.9 1.9 2.3 4.7 3.8 7.8 4-.1-.3-.1-.6-.1-.9 0-2.1 1.7-3.9 3.9-3.9 1.1 0 2.1.5 2.8 1.2.9-.2 1.7-.5 2.4-.9-.3.9-.9 1.7-1.7 2.2.8-.1 1.5-.3 2.2-.6-.5.8-1.1 1.4-1.8 2z"
+                />
+              </svg>
+            </a>
+            <a href="#" aria-label="LinkedIn" class="social-link">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M4.5 3C3.7 3 3 3.7 3 4.5S3.7 6 4.5 6 6 5.3 6 4.5 5.3 3 4.5 3zM3 8h3v13H3zM9 8h3v2h.1c.4-.8 1.5-2.2 3.6-2.2 3.8 0 4.5 2.5 4.5 5.7V21h-3v-6.3c0-1.5 0-3.4-2.1-3.4-2.1 0-2.4 1.6-2.4 3.3V21H9z"
+                />
+              </svg>
+            </a>
+            <a href="#" aria-label="Google Plus" class="social-link">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12.1 12.2v2.6h4.1c-.2 1-1.2 2.9-4.1 2.9-2.5 0-4.5-2-4.5-4.5s2-4.5 4.5-4.5c1.4 0 2.3.6 2.9 1.1l2-2c-1.3-1.2-3-2-4.9-2-4 0-7.3 3.2-7.3 7.3s3.2 7.3 7.3 7.3c4.2 0 6.9-2.9 6.9-7 0-.5-.1-.9-.1-1.3h-6.8zm8.3-.2v-2.1h-2.1V7.8h-2.1v2.1h-2.1v2.1h2.1v2.1h2.1V12z"
+                />
+              </svg>
+            </a>
+            <a href="#" aria-label="GitHub" class="social-link">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12 2C6.5 2 2 6.6 2 12.3c0 4.6 2.9 8.6 6.9 10 .5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.4-3.4-1.4-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.6 1.1 1.6 1.1.9 1.6 2.4 1.1 3 .8.1-.7.4-1.1.7-1.4-2.2-.3-4.5-1.1-4.5-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.6 0 0 .8-.3 2.7 1 .8-.2 1.7-.3 2.5-.3s1.7.1 2.5.3c1.9-1.3 2.7-1 2.7-1 .5 1.3.2 2.3.1 2.6.6.7 1 1.6 1 2.7 0 3.9-2.3 4.7-4.5 5 .4.3.8 1 .8 2.1v3.1c0 .3.2.6.7.5 4-1.4 6.9-5.4 6.9-10C22 6.6 17.5 2 12 2z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-divider"></div>
+      <p class="footer-copy">&copy; 2025 KTADS. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+      (function () {
+        const slides = Array.from(document.querySelectorAll('.hero-slide'));
+        const dots = Array.from(document.querySelectorAll('.hero-dot'));
+        const prev = document.querySelector('.hero-prev');
+        const next = document.querySelector('.hero-next');
+        let index = 0;
+
+        function setSlide(i) {
+          index = (i + slides.length) % slides.length;
+          slides.forEach((slide, idx) => {
+            slide.classList.toggle('is-active', idx === index);
+            slide.setAttribute('aria-hidden', idx !== index);
+          });
+          dots.forEach((dot, idx) => dot.classList.toggle('is-active', idx === index));
+        }
+
+        prev.addEventListener('click', () => setSlide(index - 1));
+        next.addEventListener('click', () => setSlide(index + 1));
+        dots.forEach((dot, idx) => dot.addEventListener('click', () => setSlide(idx)));
+        setSlide(0);
+
+        const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        if (!prefersReduced) {
+          setInterval(() => setSlide(index + 1), 7000);
+        }
+
+        const featureTrack = document.querySelector('.feature-track');
+        const featureSlides = Array.from(document.querySelectorAll('.feature-group'));
+        const fPrev = document.querySelector('.feature-prev');
+        const fNext = document.querySelector('.feature-next');
+        let featureIndex = 0;
+
+        function setFeature(i) {
+          featureIndex = (i + featureSlides.length) % featureSlides.length;
+          featureTrack.style.transform = `translateX(-${featureIndex * 100}%)`;
+          featureSlides.forEach((slide, idx) => {
+            slide.setAttribute('aria-hidden', idx !== featureIndex);
+          });
+        }
+
+        fPrev.addEventListener('click', () => setFeature(featureIndex - 1));
+        fNext.addEventListener('click', () => setFeature(featureIndex + 1));
+        setFeature(0);
+
+        const reveals = Array.from(document.querySelectorAll('.reveal'));
+        if (prefersReduced) {
+          reveals.forEach((el) => el.classList.add('is-visible'));
+          return;
+        }
+
+        const observer = new IntersectionObserver(
+          (entries, obs) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+                obs.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.2 }
+        );
+
+        reveals.forEach((el) => observer.observe(el));
+      })();
+    </script>
+  </body>
+</html>
